@@ -1,0 +1,127 @@
+.social-menu-bg{
+    background: rgb(48, 48, 255);
+}
+.menu-bar{
+    background: lavender;
+    height: 20%;
+    
+
+    
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    float: right;
+}
+.menu-bar ul li{
+    padding: 15px;
+    color: black;
+    
+}
+.active{
+    background: royalblue;
+    border-radius: 20px;
+    color: white;
+    
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li  .sub-menu-1{
+
+    display:block;
+    position:absolute;
+    margin-top:15px;
+    margin-left:-15px;
+}
+.menu-bar ul li .sub-menu-1 ul{
+    display: block;
+    margin:10px;
+}
+
+.image1{
+    width: 20%;
+    height: 10%;
+    float: left;
+}
+.text-center{
+    color: royalblue;
+     
+}
+.text1{
+    color: green;
+}
+.text-centercounter1{
+    color: white;
+                      
+}
+.text-center1{
+    color: white;
+}
+.text-centercounter2{
+    color: white;
+}
+.text-center2{
+    color: white;
+}
+.text-centercounter3{
+    color: white;
+}
+.text-center3{
+    color: white;
+}
+.text-centercounter4{
+    color: white;
+}
+.text-center4{
+    color: white;
+}
+
+.image2{
+    
+    width: 100%;
+    height: 100%;
+}
+.text-centermt-5mb-5{
+    color: royalblue;
+
+}
+.text2{
+    color: green;
+}
+.img-center{
+    width: 50px;
+    height: 50px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    
+   
+}
+.box{
+    position: relative;
+    width: 350px;
+    height: 175px;
+    /* padding: 30px; */
+    background: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
+    box-sizing: border-box; 
+     margin-top: 25px;  
+    font-size: 16px;
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.my-5{
+    color: royalblue;
+}
+.bb{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 550px;
+}
